@@ -1,0 +1,11 @@
+[package]
+name = "slow_func_in_rust"
+version = "0.1.0"
+authors = ["Vijay Yellepeddi <vijaysharma.yellepeddi@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.50"
