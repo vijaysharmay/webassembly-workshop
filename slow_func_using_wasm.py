@@ -1,9 +1,10 @@
 import time
 from wasmer import Instance
+import os
 
 def main():
     sfip_start = time.time()
-    with open("pkg\slow_func_rust_bg.wasm", "rb") as instance_bytes:
+    with open(os.path.join("pkg", "slow_func_rust_bg.wasm"), "rb") as instance_bytes:
         instance = Instance(instance_bytes.read())
         instance.exports.slow_func()
     sfip_end = time.time()
