@@ -1,5 +1,6 @@
 use std::time::{Instant};
 use wasm_bindgen::prelude::*;
+mod sqlite;
 
 #[wasm_bindgen]
 pub fn run_slow_func() {
@@ -18,3 +19,9 @@ pub fn slow_func(){
         result = result + ((i as f32).tan() * (i as f32).atan());
     }
 }
+
+// #[wasm_bindgen]
+// pub fn run_sqlite(){
+//     sqlite::create();
+//     sqlite::insert();
+// }
