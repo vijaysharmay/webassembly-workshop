@@ -1,0 +1,19 @@
+{
+  "name": "slow_func_in_rust",
+  "version": "1.0.0",
+  "description": "```sh\r sudo apt-get update\r sudo apt install build-essential python3 python3-pip\r curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\r curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh\r wasm-pack build\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaysharmay/webassembly-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaysharmay/webassembly-workshop/issues"
+  },
+  "homepage": "https://github.com/vijaysharmay/webassembly-workshop#readme"
+}
