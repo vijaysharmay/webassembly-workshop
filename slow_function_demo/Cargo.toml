@@ -1,5 +1,5 @@
 [package]
-name = "slow_func_in_rust"
+name = "slow_function_demo"
 version = "0.1.0"
 authors = ["Vijay Yellepeddi <vijaysharma.yellepeddi@gmail.com>"]
 edition = "2018"
