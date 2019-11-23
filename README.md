@@ -25,3 +25,4 @@ wasm-pack build
 - [Rust CF Worker Template](https://github.com/cloudflare/rustwasm-worker-template.git)
 - [An Interesting V8 bug](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
 - [WASI Interface Types](https://hacks.mozilla.org/2019/08/webassembly-interface-types/)
+- [Previous Session on WASM at Mixed Nuts](https://labs.imaginea.com/talk-the-nuts-and-bolts-of-webassembly/)
