@@ -17,3 +17,4 @@ Please run setup.sh on a Ubuntu machine (VM/Container/Host) for quickly setting 
 - [Isolation without Containers by Tyler McMullen](https://www.youtube.com/watch?v=2EDH-TxSo6U)
 - [WebAssembly Explorer](https://mbebenita.github.io/WasmExplorer/)
 - [Rust CF Worker Template](https://github.com/cloudflare/rustwasm-worker-template.git)
+- [An Interesting V8 bug](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
