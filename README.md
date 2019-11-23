@@ -10,6 +10,12 @@ Code for the meetup organized by [Mixed Nuts at Pramati](https://www.meetup.com/
 
 Please run setup.sh on a Ubuntu machine (VM/Container/Host) for quickly setting up the environment
 
+For wasm_bindgen_demo & slow_function_demo, please run below
+
+```sh
+wasm-pack build
+```
+
 ### References
 
 - [A Cartoon Intro to WebAssembly by Lin Clark](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/)
