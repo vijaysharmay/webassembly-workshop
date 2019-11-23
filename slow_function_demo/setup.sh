@@ -8,4 +8,5 @@ git clone https://github.com/emscripten-core/emsdk.git
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source ~/.cargo/env
 curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+curl https://wasmtime.dev/install.sh -sSf | bash
 wasm-pack build
