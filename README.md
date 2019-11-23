@@ -26,3 +26,4 @@ wasm-pack build
 - [An Interesting V8 bug](https://abiondo.me/2019/01/02/exploiting-math-expm1-v8/)
 - [WASI Interface Types](https://hacks.mozilla.org/2019/08/webassembly-interface-types/)
 - [Previous Session on WASM at Mixed Nuts](https://labs.imaginea.com/talk-the-nuts-and-bolts-of-webassembly/)
+- [Source map speedup using WASM](https://medium.com/@JevanChan/speed-up-source-map-generation-with-webassembly-google-summer-of-code-2018-e67407ed2e49)
