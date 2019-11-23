@@ -1,0 +1,16 @@
+{
+  "name": "wasm_bindgen_demo",
+  "version": "1.0.0",
+  "description": "wasm_bindgen_demo",
+  "main": "index.js",
+  "author": "Vijay Yellepeddi",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
