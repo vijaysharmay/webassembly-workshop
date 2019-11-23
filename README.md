@@ -6,7 +6,7 @@ Code for the meetup organized by [Mixed Nuts at Pramati](https://www.meetup.com/
 - emscripten
 - nodejs
 - wrangler
-- wasmer
+- wasmtime
 
 Please run setup.sh on a Ubuntu machine (VM/Container/Host) for quickly setting up the environment
 
