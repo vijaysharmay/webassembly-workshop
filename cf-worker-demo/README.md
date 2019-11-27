@@ -9,6 +9,12 @@ publishing the resulting worker to Cloudflare's worker infrastructure.
 
 ## Usage
 
+Install wrangler if you haven't,
+
+```sh
+npm i @cloudflare/wrangler -g
+```
+
 To preview on the local machine, use below command
 
 ```
