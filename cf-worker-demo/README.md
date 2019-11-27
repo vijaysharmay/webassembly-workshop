@@ -1,39 +1,23 @@
-# 👷‍♀️🦀🕸️ `rustwasm-worker-template`
+# Cloudflare Worker Demo
 
-A template for kick starting a Cloudflare worker project using
-[`wasm-pack`](https://github.com/rustwasm/wasm-pack).
+There are many examples online on how to use cloudflare workers online, but very few demonstrate how to use them with a HTML template engine (in this case the typed-html crate, which maynot be a full blown template engine, but does provide some useful macros).
+
+This project was generated using the [rustwasm-worker-template](https://github.com/cloudflare/rustwasm-worker-template.git) project.
 
 This template is designed for compiling Rust libraries into WebAssembly and
 publishing the resulting worker to Cloudflare's worker infrastructure.
 
-## 🔋 Batteries Included
-
-* [`wasm-bindgen`](https://github.com/rustwasm/wasm-bindgen) for communicating
-  between WebAssembly and JavaScript.
-* [`console_error_panic_hook`](https://github.com/rustwasm/console_error_panic_hook)
-  for logging panic messages to the developer console.
-* [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
-  for small code size.
-
 ## 🚴 Usage
 
-### 🐑 Use `wrangler generate` to Clone this Template
-
-[Learn more about `wrangler generate` here.](https://github.com/cloudflare/wrangler)
+To preview on the local machine, use below command
 
 ```
-wrangler generate wasm-worker  https://github.com/cloudflare/rustwasm-worker-template.git
-cd wasm-worker
+wrangler preview
 ```
 
-### 🛠️ Build with `wasm-pack build`
+To publish on cloudflare's infrastructure (need a valid account_id), use below command
 
 ```
-wasm-pack build
+wrangler publish
 ```
 
-### 🔬 Test in Headless Browsers with `wasm-pack test`
-
-```
-wasm-pack test --headless --firefox
-```
